@@ -3,18 +3,66 @@
 {% block title %}Hello FavorieController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+<div class="row">
+  
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <div class="card col-md-4 " style="max-width: 540px; background-color: #f5f5f510 !important">
+      <div class="row no-gutters">
+          <div class="col-md-5">
+          <img src="http://localhost/img/assassin’s-creed-valhalla-cover.jpg" class="card-img" alt="...">
+          </div>
+            <div class="col-md-7 show" >
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <div class="row mt-5"> 
+                        <a href="#" class="btn btn-outline-primary col-5 mr-2">Ajouter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+                        <a href="#" class="btn btn-outline-danger col-6">Suprimer</a>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/guihe/Documents/Ynov/Ynov 2020_2021/projet web/e-gaming/src/Controller/FavorieController.php'|file_link(0) }}">src/Controller/FavorieController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/guihe/Documents/Ynov/Ynov 2020_2021/projet web/e-gaming/templates/favorie/index.html.twig'|file_link(0) }}">templates/favorie/index.html.twig</a></code></li>
-    </ul>
+    <div class="card col-md-4 " style="max-width: 540px; background-color: #f5f5f500 !important">
+    <div class="row no-gutters">
+        <div class="col-md-5">
+        <img src="http://localhost/img/Minecraft.png" class="card-img" alt="...">
+        </div>
+        <div class="col-md-7 show" >
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <div class="row mt-5"> 
+                        <a href="#" class="btn btn-outline-primary col-5 mr-2">Ajouter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg></a>
+                        <a href="#" class="btn btn-outline-danger col-6">Suprimer</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="card col-md-4 " style="max-width: 540px; background-color: #f5f5f500 !important">
+    <div class="row no-gutters">
+        <div class="col-md-5">
+        <img src="http://localhost/img/cyberpunk-2077-cover.jpg" class="card-img" alt="...">
+        </div>
+        <div class="col-md-7 show" >
+                <div class="card-body">
+                    <h5 class="card-title">Cyberpunk title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <div class="row mt-5"> 
+                        <a href="#" class="btn btn-outline-primary col-5 mr-2">Ajouter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg> </a>
+                        <a href="#" class="btn btn-outline-danger col-6">Suprimer</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
 </div>
 {% endblock %}
